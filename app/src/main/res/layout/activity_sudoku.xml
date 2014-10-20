@@ -1,0 +1,60 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:padding="10dip"
+android:background="@color/backgroundColor"
+android:orientation="vertical"
+tools:context="com.example.reinhardstaveaux.sudoku.keypad">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:stretchColumns="*"
+        >
+
+        <TableRow>
+            <TextView
+                android:text="@string/sudokuMain"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dip"
+                android:textSize="40sp"
+                android:textColor="@color/titleColor"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/continue_button"
+                android:text="@string/continue_label"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/newGame_button"
+                android:text="@string/newGame_label"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/about_button"
+                android:text="@string/about_label"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/exit_button"
+                android:text="@string/exit_label"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

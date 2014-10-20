@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#0000FF</color>
+    <color name="titleColor">#000000</color>
+    <color name="puzzle_background">#28000000</color>
+    <color name="puzzle_dark">#d1000000</color>
+    <color name="puzzle_hilite">#8b000000</color>
+    <color name="puzzle_light">#3e000000</color>
+</resources>
